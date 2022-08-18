@@ -1,0 +1,16 @@
+common:
+    target:
+        - cortex-m4
+    includes:
+        - source/nxp/s32k
+        - source/nxp/s32k/platform/drivers/inc
+        - source/nxp/s32k/platform/devices
+        - source/nxp/s32k/platform/devices/common
+    sources:
+        - source/nxp/s32k/FlashDev.c
+        - source/nxp/s32k/FlashPrg.c
+        - source/nxp/s32k/platform/drivers/src/flash/flash_driver.c
+    macros:
+        - S32K142
+        - PFLASH
+        - P256_2KB_SEC

@@ -149,6 +149,10 @@ projects:
     w7500:
         - *module_tools
         - records/projects/wiznet/W7500.yaml
+    s32k142:
+        - *module_tools
+        - records/projects/nxp/common/nxp_flash_driver.yaml
+        - records/projects/nxp/targets/S32K_PFLASH_P256_2KB_SEC.yaml
     stm32f4xx_2048:
         - *module_tools
         - records/projects/st/STM32F4xx_2048.yaml
