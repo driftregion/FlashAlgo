@@ -83,9 +83,7 @@
 
 #include "flash_driver.h"
 
-START_FUNCTION_DECLARATION_RAMSECTION
-static status_t FLASH_DRV_CommandSequence(const flash_ssd_config_t * pSSDConfig)
-END_FUNCTION_DECLARATION_RAMSECTION
+static status_t FLASH_DRV_CommandSequence(const flash_ssd_config_t * pSSDConfig);
 /*******************************************************************************
  * Code
  ******************************************************************************/
